@@ -1,0 +1,1 @@
+[18-Mar-2020 10:59:08 UTC] PHP Fatal error:  Cannot redeclare Businessmodel::getbusinesstype() in /home/grabkart/wealthrun.grabkart.com/application/models/Businessmodel.php on line 17

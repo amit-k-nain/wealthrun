@@ -1,0 +1,46 @@
+/*login.css*/
+
+
+.login-box{
+	margin: 0 auto;
+	text-align: center;
+	background-color: #009efb;
+	box-sizing: border-box;
+	min-width: 450px;
+	min-height: 380px;
+	padding: 30px;
+	/*center*/
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-group{
+	margin-bottom: 30px;
+	border-radius: 20px;
+}
+
+.form-heading{
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 40px;
+}
+
+.btn{
+	font-size: 20px;
+	background-color: #c54040;
+	border:none;
+	border-radius: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+}
+
+.btn:hover{
+	background: #c71f17;
+}
+
+.logo{
+	margin: 0 auto;
+
+}

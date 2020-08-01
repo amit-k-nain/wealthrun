@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f63aea44-0631-47b6-9a61-537392929dfa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/simple-line-icons/css" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/simple-line-icons/fonts" />
+      <path value="$PROJECT_DIR$/vendor/rs-plugin/js" />
+      <path value="$PROJECT_DIR$/vendor/rs-plugin/revolution-addons" />
+      <path value="$PROJECT_DIR$/vendor/rs-plugin/fonts" />
+      <path value="$PROJECT_DIR$/vendor/linea-icons/linea-music" />
+      <path value="$PROJECT_DIR$/vendor/rs-plugin/assets" />
+      <path value="$PROJECT_DIR$/vendor/linea-icons/linea-basic" />
+      <path value="$PROJECT_DIR$/vendor/rs-plugin/css" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap-datepicker/css" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap-datepicker/js" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap/css" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap/js" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap-star-rating/js" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap-star-rating/img" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap-star-rating/themes" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap-star-rating/css" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/nivo-slider/themes" />
+      <path value="$PROJECT_DIR$/vendor/circle-flip-slideshow/css" />
+      <path value="$PROJECT_DIR$/vendor/circle-flip-slideshow/js" />
+      <path value="$PROJECT_DIR$/vendor/owl.carousel/assets" />
+      <path value="$PROJECT_DIR$/vendor/twentytwenty/css" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/twentytwenty/js" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/google/auth" />
+      <path value="$PROJECT_DIR$/vendor/fontawesome-free/css" />
+      <path value="$PROJECT_DIR$/vendor/google/apiclient" />
+      <path value="$PROJECT_DIR$/vendor/fontawesome-free/webfonts" />
+      <path value="$PROJECT_DIR$/vendor/google/apiclient-services" />
+      <path value="$PROJECT_DIR$/vendor/popper/umd" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1fVWg1PeNetsCQMNwHMbsLyVEQv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f63aea44-0631-47b6-9a61-537392929dfa" name="Default Changelist" comment="" />
+      <created>1596303848483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596303848483</updated>
+      <workItem from="1596303849506" duration="385000" />
+      <workItem from="1596311576052" duration="2357000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1596304237309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596304237309" />
+    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1596303996840">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1596303996840" />
+  </component>
+</project>
