@@ -2,7 +2,7 @@
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 include("../dbconnect.php");
-session_start();
+//session_start();
 if(isset($_POST['sgnupbtn'])){
     $full_name = $_POST['full_name'];
     $email = $_POST['email'];

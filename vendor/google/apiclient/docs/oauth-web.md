@@ -327,7 +327,7 @@ To run this example:
 <?php
 require_once __DIR__.'/vendor/autoload.php';
 
-session_start();
+//session_start();
 
 $client = new Google_Client();
 $client->setAuthConfig('client_secrets.json');
@@ -350,7 +350,7 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
 <?php
 require_once __DIR__.'/vendor/autoload.php';
 
-session_start();
+//session_start();
 
 $client = new Google_Client();
 $client->setAuthConfigFile('client_secrets.json');

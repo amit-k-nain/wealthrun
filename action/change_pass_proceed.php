@@ -1,6 +1,6 @@
 <?php 
     include("../dbconnect.php");
-    session_start();
+    //session_start();
     
     if(isset($_REQUEST['update'])){
         if(isset($_POST['mail_id'])){

@@ -1,4 +1,4 @@
-<?php session_start();?>
+<?php //session_start();?>
 <!DOCTYPE html>
 <html data-style-switcher-options="{'changeLogo': false, 'borderRadius': 0, 'colorPrimary': '#008fe2', 'colorSecondary': '#2d529f', 'colorTertiary': '#3aabdd', 'colorQuaternary': '#242424'}">
 	

@@ -1,6 +1,5 @@
 <?php
 include("../dbconnect.php");
-session_start();
 
 if(isset($_POST['signin'])){
 	$email = $_POST['email'];
@@ -10,11 +9,12 @@ if(isset($_POST['signin'])){
 	$getnum_rows = mysqli_num_rows($query);
 	
 	if($getnum_rows == 1){
+        session_start();
 		$alldetails = mysqli_fetch_array($query);
 		$userid = $alldetails['user_id'];
 		$full_name = $alldetails['full_name'];
 		$mobile = $alldetails['mobile'];
-		
+		//echo '<pre>'; print_r($userid);print_r($full_name);print_r($mobile);
 		$_SESSION['userid'] = $userid;
 		$_SESSION['email'] = $email;
 		$_SESSION['full_name'] = $full_name;

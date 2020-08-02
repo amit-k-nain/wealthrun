@@ -1,7 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f63aea44-0631-47b6-9a61-537392929dfa" name="Default Changelist" comment="" />
+    <list default="true" id="f63aea44-0631-47b6-9a61-537392929dfa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaytmKit/pgRedirect.php" beforeDir="false" afterPath="$PROJECT_DIR$/PaytmKit/pgRedirect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaytmKit/pgResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/PaytmKit/pgResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/change_pass_proceed.php" beforeDir="false" afterPath="$PROJECT_DIR$/action/change_pass_proceed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/contact_process1.php" beforeDir="false" afterPath="$PROJECT_DIR$/action/contact_process1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/email_verify_process.php" beforeDir="false" afterPath="$PROJECT_DIR$/action/email_verify_process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/login_process.php" beforeDir="false" afterPath="$PROJECT_DIR$/action/login_process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/action/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/order_history.php" beforeDir="false" afterPath="$PROJECT_DIR$/action/order_history.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/signup_process.php" beforeDir="false" afterPath="$PROJECT_DIR$/action/signup_process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/upload_document.php" beforeDir="false" afterPath="$PROJECT_DIR$/action/upload_document.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/change_password.php" beforeDir="false" afterPath="$PROJECT_DIR$/change_password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/default/blog-68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/large/blog-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/large/blog-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/large/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/large/blog-47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/large/blog-48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/large/blog-49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/large/blog-50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/large/blog-51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/large/blog-52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/large/blog-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/medium/blog-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/square/blog-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/wide/blog-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/get_oauth_token.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpmailer/get_oauth_token.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/google/apiclient/docs/oauth-web.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/google/apiclient/docs/oauth-web.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +174,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -87,7 +247,9 @@
       <option name="presentableId" value="Default" />
       <updated>1596303848483</updated>
       <workItem from="1596303849506" duration="385000" />
-      <workItem from="1596311576052" duration="2357000" />
+      <workItem from="1596311576052" duration="2990000" />
+      <workItem from="1596374558605" duration="4129000" />
+      <workItem from="1596400833700" duration="1029000" />
     </task>
     <servers />
   </component>
@@ -99,9 +261,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596304237309" />
-    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1596303996840">
+    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1596401857867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1596303996840" />
+    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1596401857867" />
   </component>
 </project>

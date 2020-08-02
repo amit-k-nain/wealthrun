@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 include("../dbconnect.php");
 
 // following files need to be included

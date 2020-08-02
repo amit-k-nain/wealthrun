@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 include("../dbconnect.php");
 
 if(isset($_REQUEST['mid']) && $_REQUEST['mid']){

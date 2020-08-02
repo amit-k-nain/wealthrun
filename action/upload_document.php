@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 include("../dbconnect.php");
 
 $service_id = $_POST['payment_id'];
