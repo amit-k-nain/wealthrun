@@ -54,7 +54,6 @@ if($nump111 < 1){
 }
 
 $abcService = mysqli_fetch_array($resp111);
-//print_r($abcService);die;
 
 $time = time();
 $user_id = $_SESSION['userid'];
@@ -62,10 +61,13 @@ $name = $_SESSION['full_name'];
 $email = $_SESSION['email'];
 $servnam = $abcService['servic'];
 $docrec = "received";
-$servicsecost = $abcService['s_cost'];
+$serviceCost = $abcService['s_cost'];
 $message = $_POST['message'];
 $fille = $_FILES['docs']['name'];
-
+$phone = $_SESSION['mobile'];
+$msg = $_POST['msg'];
+$orderId = $_SESSION['razorpay_order_id'];
+$_SESSION['order_id'] = $orderId;
 $xyz = [];
 for( $i=0 ; $i < $total ; $i++ ) {
     $tmpFilePath = $_FILES['docs']['tmp_name'][$i];
@@ -81,7 +83,7 @@ $fll = implode(',',$xyz);
 $date = date('Y-m-d');
 
 if($a){
-    mysqli_query($conn,"INSERT INTO payment (user_id, user_name, service, msg, docs, txn_amount, status, is_deleted, txn_date, order_id) VALUES ('$user_id','$name','$servnam','$message','$fll','$servicsecost','$docrec',1,'$date','$time')");
+    mysqli_query($conn,"INSERT INTO payment (user_id, user_name, service, msg, docs, txn_amount, txn_id , status, is_deleted, txn_date, order_id) VALUES ('$user_id','$name','$servnam','$message','$fll','$serviceCost', '$orderId' , '$docrec',1,'$date','$time')");
 }
 //print_r('dd');die;
 ?>
@@ -92,7 +94,44 @@ if($a){
             <h1>Merchant Check Out Page</h1>
         </div>
         <div class="col-sm-8 offset-sm-2">
-            <form method="post" action="../PaytmKit/pgRedirect.php">
+            <!--<form method="post" action="../PaytmKit/pgRedirect.php">
+                <table border="1"  class="table">
+                    <tbody class="thead-dark">
+                    <tr>
+                        <th>S.No</th>
+                        <th>Label</th>
+                        <th>Value</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td><label>ORDER_ID::*</label></td>
+                        <td><input id="ORDER_ID" readonly tabindex="1" maxlength="20" size="20"
+                                   name="ORDER_ID" autocomplete="off"
+                                   value="<?php /*echo $time */?>">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td><label>CUSTID ::*</label></td>
+                        <td><input id="CUST_ID" tabindex="2" maxlength="12" size="12" readonly name="CUST_ID" autocomplete="off" value="<?/*=$user_id;*/?>"></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td><label>txnAmount*</label></td>
+                        <td><input title="TXN_AMOUNT" tabindex="10"
+                                   type="text" readonly name="TXN_AMOUNT"
+                                   value="<?/*=$serviceCost;*/?>">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><input class="btn btn-primary" value="CheckOut" type="submit" onclick=""></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>-->
+            <form method="post" action="../rpay/pay.php">
                 <table border="1"  class="table">
                     <tbody class="thead-dark">
                     <tr>
@@ -118,13 +157,20 @@ if($a){
                         <td><label>txnAmount*</label></td>
                         <td><input title="TXN_AMOUNT" tabindex="10"
                                    type="text" readonly name="TXN_AMOUNT"
-                                   value="<?=$servicsecost;?>">
+                                   value="<?=$serviceCost;?>">
                         </td>
                     </tr>
                     <tr>
                         <td></td>
                         <td></td>
-                        <td><input class="btn btn-primary" value="CheckOut" type="submit" onclick=""></td>
+                        <td>
+                            <input type="hidden" name="name" value="<?=$name;?>">
+                            <input type="hidden" name="email" value="<?=$email;?>">
+                            <input type="hidden" name="phone" value="<?=$phone;?>">
+                            <input type="hidden" name="order_id" value="<?=$orderId;?>">
+                            <input type="hidden" name="msg" value="<?=$msg;?>">
+                            <input class="btn btn-primary" value="CheckOut" type="submit" onclick="">
+                        </td>
                     </tr>
                     </tbody>
                 </table>
